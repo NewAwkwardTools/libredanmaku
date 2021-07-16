@@ -1,7 +1,15 @@
-.top{
+body{
+    margin : 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #f1f1f1;
 }
-/*
-It is being developing...
+div.top{
+    padding: 10px;
+    background-color: blueviolet;
+    box-shadow: #888888 0px 5px 5px;
+    margin-bottom: 5px;
+}h1{
+    color:white;
+    text-align: center;
+}
 
-*/
