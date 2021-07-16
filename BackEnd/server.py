@@ -10,3 +10,8 @@ class Initialization:
         print("Loading Config")
         out = toml.load(filename)
         return out
+def main():
+    A = Appearance()
+    Init =Initialization()
+    config = Init.LoadConfig('config.toml')
+    A.ShowLogo(config)
