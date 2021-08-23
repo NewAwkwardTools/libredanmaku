@@ -9,9 +9,8 @@ html{
 }
 body{
     height: 100%;
-    background-image: url("wallhaven-3z32j3_1280x720.png");
+    background: url("wallhaven-3z32j3_1280x720.png");
     background-repeat: no-repeat;
-    background-size: 100% auto;
 }
 .box{
     height: 100%;
