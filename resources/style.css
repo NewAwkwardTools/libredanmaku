@@ -1,0 +1,87 @@
+body{
+    margin : 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #f1f1f1;
+}
+div.top{
+    background-image: url("wallhaven-3z32j3_1280x720.png");
+    height: 180px;
+    padding: 5px;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-clip: padding-box;
+    background-position: top;
+    box-shadow: #888888 0px 5px 5px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+div.top h1{
+    color:white;
+    text-shadow: #888888 0px 5px 5px;
+    text-align: center;
+    font-size: 50px;
+}
+div.top b{
+    transition: 2s;
+}
+div.top b:hover{
+    font-size: 100px;
+}
+div.menu{
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+}
+div.menu a{
+    transition: 500ms;
+    padding: 5px;
+    text-shadow: #888888 0px 5px 5px;
+    text-decoration: none;
+    color: white;  
+}
+div.menu a:hover{
+    background-color: #f1f1f1;
+    color: black;
+    opacity: 0.8;
+}
+div.menu a.right{
+    transition: 500ms;
+    padding: 5px;
+    text-shadow: #888888 0px 5px 5px;
+    text-decoration: none;
+    color: white;  
+    float: right;
+}
+div.menu a.right:hover{
+    background-color: #f1f1f1;
+    color: black;
+    opacity: 0.8;
+}
+div.playbar{
+    margin-right: 20px;
+    margin-left: 20px;
+    background-color: white;
+    padding: 10px;
+    box-shadow: #888888 0px 5px 5px;
+    margin-bottom: 5px;
+}
+div.playbar h1{
+    font-size: 14px;
+}
+div.footinfo{
+    text-align: center;
+}
+div.footinfo p{
+    color: black;
+    font-size: 14px;
+}
+div.loginPad{
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 200px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: #888888 0px 5px 5px;
+}
