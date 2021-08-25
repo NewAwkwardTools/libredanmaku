@@ -11,17 +11,16 @@ body{
     height: 100%;
     background: url("wallhaven-3z32j3_1280x720.png");
     background-repeat: no-repeat;
+    background-size: 100% auto;
 }
 .box{
     height: 100%;
-    background-image: linear-gradient(to right, rgba(255,255,255,0.5), rgba(0,0,0,0.9));
-    animation: 200ms;
-    backdrop-filter: blur(0px);
+    background-color: rgba(0, 0, 0, 0.3);
     transition: 5s;
 }
 
 .box:hover{
-    backdrop-filter: blur(20px);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 .login-pad{
