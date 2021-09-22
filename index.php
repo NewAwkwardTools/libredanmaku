@@ -7,6 +7,9 @@
         <title>LibreDanmaku</title>
     </head>
     <body>
+<?php 
+echo "PHP part is being developed."
+?>
         <div class="top">
             <div class="menu">
                 <a href="index.html">首页</a>
