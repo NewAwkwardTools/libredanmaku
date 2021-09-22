@@ -15,8 +15,10 @@ echo "PHP part is being developed."
 	    <div class="login-pad">
 		<div class="headTitle">Login</div>
 		<div class="form-wrapper">
+			<form>
 		    <input type="text" name="username" placeholder="username" class="input-item">
 		    <input type="password" name="password" placeholder="password" class="input-item">
+			</form>
 		</div>
 		<div class="button">Login</div>
 		<div class="msg">
